@@ -1,6 +1,6 @@
 import bgCafe from "./assets/bg-cafe.jpg"
 import styled from "styled-components";
-import spiral from "./assets/vector.svg"
+
 export const Container = styled.div`
     width: 100%;
     background-color: ${ ({ theme }) => theme.COLORS.BLACK_900};
@@ -31,7 +31,7 @@ export const Container = styled.div`
 
             .icon {
                 position: relative;
-                background-image: url(${spiral});
+                background-image: url("/vector.svg");
                 height: 16rem;
                 background-repeat: no-repeat;
                 left: 50%;
